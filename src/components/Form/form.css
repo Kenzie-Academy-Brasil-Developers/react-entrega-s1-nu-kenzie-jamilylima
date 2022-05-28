@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:ital,wght@0,600;0,700;1,200;1,600;1,800&family=Nunito:ital,wght@0,400;0,500;0,800;1,300;1,600&display=swap');
+
+
+main{
+    
+    width: 130vh;
+    height: 87vh;
+    margin-left: 20%;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+
+
+
+.formulario{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 363px; 
+    height: 351px; 
+    height:50%;
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    
+}
+
+.labelDescricao{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #212529;
+
+}
+
+.inputDescricao{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+
+}
+
+.alteraConta{
+    width: 320px;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.valores{
+    width: 120px;
+    height: 50px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+}
+
+.inserirValor{
+
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: #FD377E;
+    border: 2px solid #F8F9FA;
+    color: #E9ECEF; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+

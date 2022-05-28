@@ -1,0 +1,294 @@
+
+.inicio{
+    background-color:#212529;;
+    width: 100vw; 
+    height: 100vh;
+    margin:0 auto;
+    padding:0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.telainicial{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.Txt{
+    width: 300px;
+    height: 144px;
+    left: 256px;
+    top: 264px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0px;
+    
+}
+
+.paragrafo{
+    width: 260px;
+    height: 26px;
+    left: 256px;
+    top: 436px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+.btnIniciar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 241px;
+    height: 48px;
+    background: #FD377E;
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.primeiroCirculo{
+    position: absolute;
+    width: 593px;
+    height: 593px;
+    left: 651px;
+    top: 94px;
+    background: rgba(224, 100, 204, 0.05);
+    border-radius: 300px;
+}
+
+.segundoCirculo{
+    position: absolute;
+    width: 516.95px;
+    height: 516.95px;
+    left: 689.02px;
+    top: 132.02px;
+    background: rgba(224, 100, 204, 0.05);
+    border-radius: 300px;
+}
+
+
+.terceiroCirculo{
+    position: absolute;
+    width: 424.61px;
+    height: 424.61px;
+    left: 732.48px;
+    top: 178.2px;
+    background: rgba(224, 100, 204, 0.05);
+    border-radius: 300px;
+}
+
+.primeiroRetangulo{
+    position: absolute;
+    width: 256.21px;
+    height: 354.89px;
+    left: 825.73px;
+    top: 198.11px;
+    background: #FFFFFF;
+    border-radius: 3.62137px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.retanguloInterno{
+    position: absolute;
+    width: 206px;
+    height: 36px;
+    left: 851px;
+    top: 237px;
+    background: #F3F3F3;
+    border-radius: 1.81069px;
+}
+
+.retanguloInternoo{
+    position: absolute;
+    width: 206px;
+    height: 36px;
+    left: 851px;
+    top: 300px;
+    background: #F3F3F3;
+    border-radius: 1.81069px;
+}
+
+.retanguloInternooo{
+    position: absolute;
+    width: 206px;
+    height: 36px;
+    left: 851px;
+    top: 360px;
+    background: #F3F3F3;
+    border-radius: 1.81069px;
+}
+
+.retanguloInternoooo{
+    position: absolute;
+    width: 206px;
+    height: 36px;
+    left: 851px;
+    top: 420px;
+    background: #F3F3F3;
+    border-radius: 1.81069px;
+}
+
+.retanguloInternooooo{
+    position: absolute;
+    width: 206px;
+    height: 36px;
+    left: 851px;
+    top: 480px;
+    background: #F3F3F3;
+    border-radius: 1.81069px;
+}
+
+.bolaPreta{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 1063px;
+    top: 210px;
+    background: #000000;
+}
+
+.bolaVerde{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 1048px;
+    top: 210px;
+    background: #66C085;
+}
+
+.bolaVermelha{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 1033px;
+    top: 210px;
+    background: #FD377E;
+}
+
+.retanguloUm{
+    position: absolute;
+    width: 231.79px;
+    height: 69px;
+    left: 871px;
+    top: 401px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.67961px 26.7961px rgba(0, 0, 0, 0.25);
+    border-radius: 2.67961px;
+}
+
+.carregamentoUm{
+    position: absolute;
+    width: 152.74px;
+    height: 11.39px;
+    left: 934.64px;
+    top: 414.4px;
+    background: rgba(102, 192, 133, 0.11);
+    border-radius: 1.33981px;
+}
+
+.carregamentoDois{
+    position: absolute;
+    width: 38.85px;
+    height: 11.39px;
+    left: 934.64px;
+    top: 433.16px;
+    background: rgba(102, 192, 133, 0.11);
+    border-radius: 1.33981px;
+}
+
+.quadradoVerde{
+    position: absolute;
+    width: 44.88px;
+    height: 42.87px;
+    left: 881.05px;
+    top: 414.4px;
+    background: #66C085;
+    border-radius: 2.67961px;
+}
+
+
+
+.retanguloDois{
+    position: absolute;
+    width: 313.25px;
+    height: 93.25px;
+    left: 732.48px;
+    top: 332.11px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.25);
+    border-radius: 3.62137px;
+}
+
+
+.carregamentoMaior{
+    
+    position: absolute;
+    width: 206.42px;
+    height: 15.39px;
+    left: 818.49px;
+    top: 350.21px;
+    background: #FCEFFA;
+    border-radius: 1.81069px;
+}
+
+
+.carregamentoMenor{
+    position: absolute;
+    width: 52.51px;
+    height: 15.39px;
+    left: 820px;
+    top: 375.56px;
+    background: #FCEFFA;
+    border-radius: 1.81069px;
+}
+
+.quadradoRosa{
+    position: absolute;
+    width: 60.66px;
+    height: 57.94px;
+    left: 746.06px;
+    top: 350.21px;
+    background: #FD377E;
+    border-radius: 3.62137px;
+}
+
+
+.imgverde{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 900px;
+    top: 435px;
+    border: 1.33981px solid #FFFFFF;
+}
+
+.imgVermelho{
+    position: absolute;
+    width: 15px;
+    height:15px;
+    left: 765px;
+    top: 373px;
+    border: 1.33981px solid #FFFFFF;
+}
